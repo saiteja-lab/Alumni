@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a9c8ea;
+    background-image: url("../images/back-ground/pexels-polina-zimmerman-3747464.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #333;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-container:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.logo img {
+    max-width: 250px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.logo img:hover {
+    transform: rotate(360deg);
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #007BFF;
+    transition: color 0.3s ease;
+}
+
+h2:hover {
+    color: #0056b3;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+button[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+button[type="submit"]:active {
+    transform: translateY(0);
+    background-color: #004080;
+}
+
+.account-recovery a {
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.account-recovery a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.contact-info p,
+.social-media a {
+    font-size: 14px;
+    color: #777;
+    margin: 5px 0;
+    transition: color 0.3s ease;
+}
+
+.contact-info p:hover,
+.social-media a:hover {
+    color: #333;
+}
+
+.social-media a img {
+    width: 24px;
+    margin: 0 5px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.social-media a img:hover {
+    transform: scale(1.2);
+    opacity: 0.8;
+}
